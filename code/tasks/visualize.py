@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 
 from pdb import set_trace as pause
 
-os.environ['CUDA_VISIBLE_DEVICES']='3'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 def get_detections(file_name):
 	file_name = os.path.abspath(file_name)
