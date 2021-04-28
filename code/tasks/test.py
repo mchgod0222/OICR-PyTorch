@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 from pdb import set_trace as pause
 
-os.environ['CUDA_VISIBLE_DEVICES']='3'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 def save_object(obj, file_name):
 	"""Save a Python object by pickling it."""

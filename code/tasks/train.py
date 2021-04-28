@@ -28,7 +28,7 @@ import logging
 from utils.logging import setup_logging
 
 from pdb import set_trace as pause
-os.environ['CUDA_VISIBLE_DEVICES']='1'
+os.environ['CUDA_VISIBLE_DEVICES']='0'
 
 # Set up logging and load config options
 logger = setup_logging(__name__)
