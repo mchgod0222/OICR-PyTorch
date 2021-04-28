@@ -65,6 +65,8 @@ def gibe_me_cool_visualiztions(args, dataset):
 		img     = image[0]
 		img_key = img_key[0]
 
+		img_key = list(detections.keys())[0][:66] + img_key[22:]
+
 		proposals = dataset.proposals[i]
 		detect = detections[img_key]
 
